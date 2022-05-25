@@ -13,17 +13,19 @@
 		952305782834F85A000DF858 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 952305762834F85A000DF858 /* Main.storyboard */; };
 		9523057A2834F85B000DF858 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 952305792834F85B000DF858 /* Assets.xcassets */; };
 		9523057D2834F85B000DF858 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9523057B2834F85B000DF858 /* LaunchScreen.storyboard */; };
+		952305852834F870000DF858 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 952305842834F870000DF858 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9523056D2834F85A000DF858 /* IOsBundleSetting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOsBundleSetting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		952305702834F85A000DF858 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		952305722834F85A000DF858 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		952305742834F85A000DF858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		952305742834F85A000DF858 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ViewController.swift; sourceTree = "<group>"; };
 		952305772834F85A000DF858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		952305792834F85B000DF858 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9523057C2834F85B000DF858 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9523057E2834F85B000DF858 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		952305842834F870000DF858 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		952305642834F85A000DF858 = {
 			isa = PBXGroup;
 			children = (
+				952305842834F870000DF858 /* Settings.bundle */,
 				9523056F2834F85A000DF858 /* IOsBundleSetting */,
 				9523056E2834F85A000DF858 /* Products */,
 			);
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952305852834F870000DF858 /* Settings.bundle in Resources */,
 				9523057D2834F85B000DF858 /* LaunchScreen.storyboard in Resources */,
 				9523057A2834F85B000DF858 /* Assets.xcassets in Resources */,
 				952305782834F85A000DF858 /* Main.storyboard in Resources */,
